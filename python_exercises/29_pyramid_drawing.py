@@ -1,5 +1,7 @@
 def drawPyramid(height):
-    for h in range(height):
-        print("#" * (h + 1))
+    for rowNumber in range(0, height):
+        print(((height - (rowNumber + 1)) * " ") + (rowNumber * 2 + 1) * "#")
 
+drawPyramid(3)
 drawPyramid(8)
+drawPyramid(30)
