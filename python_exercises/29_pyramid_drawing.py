@@ -5,3 +5,5 @@ def drawPyramid(height):
 drawPyramid(3)
 drawPyramid(8)
 drawPyramid(30)
+
+print("Hello")
